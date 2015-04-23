@@ -95,7 +95,7 @@ public class GL2JNIActivity extends Activity {
 		K.logi("onDestroy() [begin]");
 		mView.onRequestDestroy();
 		
-		System.exit(0);
+		//System.exit(0);
 		K.logi("onDestroy() [end]");
 	}
 }
