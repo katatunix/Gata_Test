@@ -2,3 +2,11 @@ prj/android/bin/
 prj/android/gen/
 prj/android/libs/
 prj/android/obj/
+*.ilk
+*.idb
+*.pdb
+*.sdf
+*.suo
+*.user
+Debug/
+ipch/

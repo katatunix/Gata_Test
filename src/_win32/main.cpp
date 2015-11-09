@@ -106,8 +106,6 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInst,
 		MessageBox(NULL, "Failed to create the device context", "Error", MB_ICONERROR);
 		return 0;
 	}
-	
-	ShowWindow(g_hWnd, nShowCmd);
 
 	//
 	new CGame();
@@ -125,6 +123,8 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInst,
 
 	g_isRunGame = true;
 	unsigned long long next_game_tick = 0;
+
+	ShowWindow(g_hWnd, nShowCmd);
 
 	while (true)
 	{
